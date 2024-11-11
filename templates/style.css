@@ -11,12 +11,10 @@ body {
     justify-content: center;
     margin: 0;
 }
-
 h1 {
     margin-bottom: 20px;
     font-size: 2em;
 }
-
 #textInput {
     width: 80%;
     max-width: 500px;
@@ -30,7 +28,6 @@ h1 {
     color: #f0f0f0;
     outline: none;
 }
-
 button {
     padding: 15px 30px;
     margin-top: 20px;
@@ -42,11 +39,9 @@ button {
     background-color: #f39c12;
     transition: background-color 0.3s ease;
 }
-
 button:hover {
     background-color: #e67e22;
 }
-
 #result {
     font-size: 1.5em;
     margin-top: 30px;
@@ -54,7 +49,6 @@ button:hover {
     flex-direction: column;
     align-items: center;
 }
-
 .emoji {
     font-size: 4em;
     margin-top: 10px;
