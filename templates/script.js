@@ -8,10 +8,11 @@ function getEmoji(emotion) {
     };
     return emojis[emotion] || "😶";
 }
-
+//const link='http://127.0.0.1:5000';
+const link='https://emotion-detection-from-text.onrender.com';
 async function analyzeEmotion() {
     const text = document.getElementById("textInput").value;
-    const response = await fetch('http://127.0.0.1:5000/analyze', {
+    const response = await fetch(`${link}/analyze`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
